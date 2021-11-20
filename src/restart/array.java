@@ -1,16 +1,16 @@
 package restart;
 
 /*
-Array is a collection of similar elements.
+Array is a group of similar elements.
 syntax:
     datatype[] array_name = new datatype[size];
-    eg.: store 5 roll number.
+    e.g.: store 5 roll number.
     int[] roll = new int[5];
     or
     int[] roll = {3,4,5,6,7};
 
-    declaration of an array is happens at compile time while the initialization of an array is happens at runtime this is basically known as dynamic memory allocation.
-     Dynamic memory allocation: assigning the memory space during the execution time or runtime.
+    Declaration of an array is happens at compile time while the initialization of an array is happens at runtime this is basically known as dynamic memory allocation.
+    Dynamic memory allocation: assigning the memory space during the execution time or runtime.
 
     In c/c++ array objects are continuous but...
     array objects in java may not continuous because:
