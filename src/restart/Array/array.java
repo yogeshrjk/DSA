@@ -1,10 +1,10 @@
-package restart;
+package restart.Array;
 
 /*
 Array is a group of similar elements.
 syntax:
     datatype[] array_name = new datatype[size];
-    e.g.: store 5 roll number.
+    e.g. store 5 roll number.
     int[] roll = new int[5];
     or
     int[] roll = {3,4,5,6,7};
@@ -24,7 +24,6 @@ syntax:
     |''''|''''|''''|''''|''''|''''|
     |____|____|____|____|____|____|
        0   1    2    3    4    5
-
 
     ~ What is new keyword?
     new is a keyword which is used to create an object
@@ -46,17 +45,18 @@ public class array {
         for (int i = 0; i < roll.length; i++){
             roll[i] = in.nextInt();
         }
-
+//Print Array
+        //by for loop traditional way
 //        for (int i = 0; i < roll.length; i++){
 //            System.out.print(roll[i] + " ");
 //        }
 
-        //Enhanced for l oop
+        //Enhanced for loop
 //        for (int i : roll){ //i = element of the array
 //            System.out.print(i + " ");
 //        }
 
-        //array method
+        //Arrays.toString method
         System.out.println(Arrays.toString(roll));
     }
 
